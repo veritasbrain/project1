@@ -1,4 +1,5 @@
 import pandas as pd
+import streamlit as st
 
 dt = {
   'car': ['BMW', 'Volvo', 'Ford'],
@@ -6,3 +7,5 @@ dt = {
 }
 
 df = pd.DataFrame(dt)
+
+st.title('Uber pickups in NYC')
